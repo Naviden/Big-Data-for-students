@@ -16,19 +16,19 @@ Key-value databases are the simplest form of No-SQL databases, storing data as a
 
 ### Practical Demonstration (Key-Value Example using Redis):
 #### Sample Data:
-\`\`\`plaintext
+```
 Key: user123
 Value: { "name": "John Doe", "age": 35, "email": "john@example.com" }
-\`\`\`
+```
 - You can store this data in Redis and retrieve it by querying the key **user123**.
 
-\`\`\`bash
+```
 # Storing data in Redis
 SET user123 "{ "name": "John Doe", "age": 35, "email": "john@example.com" }"
 
 # Retrieving data in Redis
 GET user123
-\`\`\`
+```
 
 This approach is highly effective for fast lookups and session management. For example, websites often store user session data in Redis to provide quick access to user profiles.
 
@@ -45,17 +45,17 @@ Column-family databases organize data into columns rather than rows, allowing fo
 
 ### Practical Demonstration (Column-Family Example using Apache Cassandra):
 #### Sample Data:
-\`\`\`plaintext
+```
 Column Family: User_Info
 ------------------------------------
 Key: user123
 Name: John Doe
 Age: 35
 Email: john@example.com
-\`\`\`
+```
 - In Cassandra, you can insert and query data using CQL (Cassandra Query Language):
 
-\`\`\`bash
+```
 # Creating a keyspace and column family in Cassandra
 CREATE KEYSPACE user_data WITH replication = {'class': 'SimpleStrategy', 'replication_factor': 1};
 
@@ -68,7 +68,7 @@ INSERT INTO User_Info (user_id, name, age, email) VALUES ('user123', 'John Doe',
 
 # Querying data
 SELECT * FROM User_Info WHERE user_id = 'user123';
-\`\`\`
+```
 
 This structure is particularly useful for applications requiring scalability and quick access to large datasets, like sensor data or event logs.
 
