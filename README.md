@@ -32,7 +32,7 @@ To run the code examples and exercises provided in this repository, you will nee
 
 1. Clone the repository to your local machine:
    ```
-   git clone https://github.com/Naviden/Big-Data-for-undergrads.git
+   git clone https://github.com/Naviden/Big-Data-for-students.git
    ```
 
 2. Navigate to the desired topic folder and open the corresponding Markdown file to view the content and instructions.
