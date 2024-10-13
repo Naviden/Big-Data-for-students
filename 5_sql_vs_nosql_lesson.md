@@ -57,14 +57,14 @@ Column-family databases store data in columns rather than rows. Data is grouped 
 - **Apache Cassandra**: A widely-used column-family store, known for its scalability and fault tolerance across distributed systems.
 
 #### How It Works:
-\`\`\`plaintext
+```
 Column Family: User_Info
 ------------------------------------
 Key: user123
 Name: Alice
 Age: 29
 Email: alice@example.com
-\`\`\`
+```
 In column-family stores, data is grouped by column families, making it efficient to query related data across large volumes of data.
 
 ---
