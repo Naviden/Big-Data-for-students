@@ -1,5 +1,5 @@
 
-# Lesson 5: SQL vs. No-SQL (Focus on Key-Value and Columnar No-SQL Databases)
+# Lesson 4: SQL vs. No-SQL (Focus on Key-Value and Columnar No-SQL Databases)
 
 In this lesson, we’ll explore the differences between **SQL** (relational) and **No-SQL** (non-relational) databases, with a focus on two types of No-SQL databases: **key-value stores** and **column-family stores**. Understanding when and why to use each can be critical for building scalable applications.
 
@@ -90,8 +90,3 @@ In column-family stores, data is grouped by column families, making it efficient
 | **ACID Compliance**    | Yes (ACID transactions)             | Depends on the No-SQL type (BASE model) |
 | **Best For**           | Complex Queries, Transactions       | Scalability, Large Data, Flexibility    |
 | **Examples**           | MySQL, PostgreSQL                   | Redis, Cassandra, MongoDB               |
-
----
-
-## Conclusion
-Relational databases (SQL) are excellent for structured data with complex relationships and high data integrity needs. No-SQL databases, particularly **key-value** and **column-family stores**, provide more flexibility and scalability for handling massive, unstructured data. Understanding when to use each can significantly impact the performance and scalability of your applications.

@@ -1,5 +1,5 @@
 
-# Lesson 8: Practicing Spark Basics in Databricks (Part 1)
+# Lesson 7: Practicing Spark Basics in Databricks (Part 1)
 
 In this lesson, we’ll explore how to get started with **Apache Spark** in **Databricks** and practice some of the fundamental Spark operations, such as filtering, transformations, and actions.
 
@@ -102,9 +102,3 @@ selected_df.show()
 row_count = selected_df.count()
 print(f"Total rows: {row_count}")
 ```
-
----
-
-## Conclusion
-
-In this part, we’ve introduced you to **Databricks** and covered some basic operations in **Apache Spark**, such as filtering, transformations, and actions. In the next part, we will dive deeper into more advanced Spark features such as aggregations, joins, and Spark SQL.

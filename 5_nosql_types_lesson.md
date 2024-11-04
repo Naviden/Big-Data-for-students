@@ -1,5 +1,5 @@
 
-# Lesson 6: No-SQL Database Types (Key-Value and Columnar Focus)
+# Lesson 5: No-SQL Database Types (Key-Value and Columnar Focus)
 
 In this lesson, we will dive deeper into two key types of No-SQL databases: **key-value stores** and **column-family stores**. We’ll explore how they work, demonstrate their use with sample data, and provide guidance on selecting the right No-SQL database for specific use cases.
 
@@ -94,7 +94,3 @@ When choosing between different types of No-SQL databases, it’s important to u
    - **Key-Value (e.g., Redis)**: Great for caching, session storage, and real-time analytics.
    - **Column-Family (e.g., Cassandra)**: Ideal for time-series data, event logging, and applications requiring high throughput.
 
----
-
-## Conclusion
-Understanding the strengths of key-value and column-family No-SQL databases will help you make informed decisions about which database type to use based on your application's needs. Both offer powerful solutions for managing large, complex datasets in a scalable way.

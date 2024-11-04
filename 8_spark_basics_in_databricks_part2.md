@@ -1,5 +1,5 @@
 
-# Lesson 9: Practicing Spark Basics in Databricks (Part 2)
+# Lesson 8: Practicing Spark Basics in Databricks (Part 2)
 
 In this lesson, we’ll continue exploring Apache Spark in Databricks by diving into more advanced Spark operations such as **joins**, **aggregations**, and **window functions**. We will also compare working with **Spark DataFrames** and **RDDs**.
 
@@ -108,9 +108,3 @@ rdd_mapped.collect()
   
 ### RDDs:
 - Use RDDs for unstructured data or when you need more control over data processing and transformations. They’re also useful for certain low-level operations where DataFrames may not provide the necessary flexibility.
-
----
-
-## Conclusion
-
-In this part, we explored advanced Spark operations such as **joins**, **aggregations**, and **window functions**. We also compared working with **Spark DataFrames** and **RDDs** and discussed when to use each. Understanding these advanced operations is key to leveraging the full power of Spark for large-scale data processing.

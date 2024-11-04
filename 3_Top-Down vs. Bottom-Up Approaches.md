@@ -1,4 +1,4 @@
-# Lesson 4: Quick Recap of Top-Down vs. Bottom-Up Approaches
+# Lesson 3: Quick Recap of Top-Down vs. Bottom-Up Approaches
 
 In data management and analysis, two prominent methodologies are often used to structure and process data: the **top-down** and **bottom-up** approaches. These approaches offer different perspectives on how to tackle complex problems in data management.
 
@@ -41,8 +41,3 @@ Instead of starting with an overarching plan, a department within a company migh
 | **Flexibility**        | More rigid and predefined               | Flexible and adaptable                  |
 | **Implementation**     | Focuses on overall system design first  | Focuses on individual components first  |
 | **Best For**           | Large, structured projects              | Projects requiring adaptability or experimentation |
-
----
-
-## Conclusion
-The **top-down approach** is more structured and works well for projects requiring comprehensive planning from the outset, while the **bottom-up approach** allows for more flexibility and evolution, particularly in dynamic environments. Both approaches have their place in data management depending on the context and goals of the project.

@@ -1,5 +1,5 @@
 
-# Lesson 7: Big Data Technologies: Spark, Hadoop, MapReduce
+# Lesson 6: Big Data Technologies: Spark, Hadoop, MapReduce
 
 In this lesson, we’ll dive into the world of Big Data technologies, focusing on three powerful tools: **Hadoop**, **MapReduce**, and **Apache Spark**. Each of these technologies plays a crucial role in handling large-scale data processing across distributed systems.
 
@@ -106,8 +106,3 @@ In this lesson, we’ll dive into the world of Big Data technologies, focusing o
 2. **Machine Learning**:
    - Spark’s MLlib is employed by companies like Yahoo to build recommendation systems that predict user preferences based on historical data.
 
----
-
-## Conclusion
-
-Hadoop, MapReduce, and Apache Spark are all powerful tools for handling Big Data, but they serve different purposes. **Hadoop** provides the underlying infrastructure, **MapReduce** handles distributed batch processing, and **Spark** offers a faster, more flexible alternative with real-time capabilities. Each of these technologies has distinct use cases, and understanding their strengths will help you choose the right tool for your data needs.
