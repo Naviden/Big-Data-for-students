@@ -1,5 +1,5 @@
 
-# Lesson 6: Big Data Technologies: Spark, Hadoop, MapReduce
+# Big Data Technologies: Spark, Hadoop, MapReduce
 
 In this lesson, we’ll dive into the world of Big Data technologies, focusing on three powerful tools: **Hadoop**, **MapReduce**, and **Apache Spark**. Each of these technologies plays a crucial role in handling large-scale data processing across distributed systems.
 

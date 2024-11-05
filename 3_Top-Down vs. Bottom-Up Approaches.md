@@ -1,4 +1,4 @@
-# Lesson 3: Quick Recap of Top-Down vs. Bottom-Up Approaches
+# Quick Recap of Top-Down vs. Bottom-Up Approaches
 
 In data management and analysis, two prominent methodologies are often used to structure and process data: the **top-down** and **bottom-up** approaches. These approaches offer different perspectives on how to tackle complex problems in data management.
 

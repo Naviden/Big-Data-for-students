@@ -1,5 +1,5 @@
 
-# Lesson 5: No-SQL Database Types (Key-Value and Columnar Focus)
+# No-SQL Database Types (Key-Value and Columnar Focus)
 
 In this lesson, we will dive deeper into two key types of No-SQL databases: **key-value stores** and **column-family stores**. We’ll explore how they work, demonstrate their use with sample data, and provide guidance on selecting the right No-SQL database for specific use cases.
 

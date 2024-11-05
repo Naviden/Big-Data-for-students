@@ -1,4 +1,4 @@
-# Lesson 1: Basic Definitions (Database, Data Mart, Data Lake, etc.)
+# Basic Definitions (Database, Data Mart, Data Lake, etc.)
 
 
 ## Introduction to Data Storage Systems

@@ -1,5 +1,5 @@
 
-# Lesson 7: Practicing Spark Basics in Databricks (Part 1)
+# Practicing Spark Basics in Databricks (Part 1)
 
 In this lesson, we’ll explore how to get started with **Apache Spark** in **Databricks** and practice some of the fundamental Spark operations, such as filtering, transformations, and actions.
 

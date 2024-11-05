@@ -1,5 +1,5 @@
 
-# Lesson 8: Practicing Spark Basics in Databricks (Part 2)
+# Practicing Spark Basics in Databricks (Part 2)
 
 In this lesson, we’ll continue exploring Apache Spark in Databricks by diving into more advanced Spark operations such as **joins**, **aggregations**, and **window functions**. We will also compare working with **Spark DataFrames** and **RDDs**.
 

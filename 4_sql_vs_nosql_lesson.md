@@ -1,5 +1,5 @@
 
-# Lesson 4: SQL vs. No-SQL (Focus on Key-Value and Columnar No-SQL Databases)
+# SQL vs. No-SQL (Focus on Key-Value and Columnar No-SQL Databases)
 
 In this lesson, we’ll explore the differences between **SQL** (relational) and **No-SQL** (non-relational) databases, with a focus on two types of No-SQL databases: **key-value stores** and **column-family stores**. Understanding when and why to use each can be critical for building scalable applications.
 
