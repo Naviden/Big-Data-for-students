@@ -43,8 +43,6 @@ A data lake stores data in its raw format. Unlike traditional relational databas
 
 ## Types of Data: Structured, Semi-Structured, and Unstructured
 
-Data comes in various forms, and understanding the differences between these types is crucial in the realm of data storage and processing. Let's break down the three main types:
-
 ### 1. Structured Data
 - **Definition**: Data that is organized and easy to analyze because it follows a consistent and well-defined format. Structured data is typically arranged in tables with rows and columns, often using a relational database schema.
 - **Storage**: This type of data is commonly stored in relational databases or spreadsheets, which support efficient querying and reporting.
