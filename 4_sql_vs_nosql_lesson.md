@@ -12,10 +12,11 @@ In this lesson, we’ll explore the differences between **SQL** (relational) and
 ### Characteristics of SQL Databases:
 - **Schema-Based**: Data must follow a predefined schema with a clear structure (tables with rows and columns).
 - **ACID Compliance**: SQL databases ensure **Atomicity, Consistency, Isolation, and Durability**, making them ideal for applications requiring complex transactions.
-  - Atomicity: Ensures that a transaction is all-or-nothing; either all operations succeed, or none are applied.  
-	- Consistency: Guarantees that a transaction transforms the database from one valid state to another, maintaining data integrity.
-	- Isolation: Ensures that concurrent transactions do not interfere with each other, producing the same result as if they were executed sequentially.
-	- Durability: Ensures that once a transaction is committed, the changes are permanent, even in the event of a system failure.
+  
+  - *Atomicity*: Ensures that a transaction is all-or-nothing; either all operations succeed, or none are applied.  
+  - *Consistency*: Guarantees that a transaction transforms the database from one valid state to another, maintaining data integrity.
+  - *Isolation*: Ensures that concurrent transactions do not interfere with each other, producing the same result as if they were executed sequentially.
+  - *Durability*: Ensures that once a transaction is committed, the changes are permanent, even in the event of a system failure.
 - **Relational**: Data is often linked using keys (primary and foreign keys) to maintain relationships between tables.
 
 #### Example:
@@ -94,3 +95,10 @@ In column-family stores, data is grouped by column families, making it efficient
 | **ACID Compliance**    | Yes (ACID transactions)             | Depends on the No-SQL type (BASE model) |
 | **Best For**           | Complex Queries, Transactions       | Scalability, Large Data, Flexibility    |
 | **Examples**           | MySQL, PostgreSQL                   | Redis, Cassandra, MongoDB               |
+
+### Other Types of NoSQL Databases
+
+In addition to key-value and columnar databases, here are a few more types of NoSQL databases:
+
+- **Document Stores**: These databases store data as JSON-like documents. Examples include MongoDB and CouchDB. They are suitable for applications requiring flexible and hierarchical data structures.
+- **Graph Databases**: Designed to handle data with complex relationships, graph databases store entities as nodes and relationships as edges. Neo4j and Amazon Neptune are popular examples.
