@@ -1,4 +1,4 @@
-# Lesson 2: Quick Recap of Big Data Definition (5 V's)
+# Quick Recap of Big Data Definition
 
 Big Data is characterized by the large, fast, and diverse data generated today. To better understand it, we break down Big Data into the **5 V's** that explain the challenges and opportunities it presents.
 
