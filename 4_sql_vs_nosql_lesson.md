@@ -12,6 +12,10 @@ In this lesson, we’ll explore the differences between **SQL** (relational) and
 ### Characteristics of SQL Databases:
 - **Schema-Based**: Data must follow a predefined schema with a clear structure (tables with rows and columns).
 - **ACID Compliance**: SQL databases ensure **Atomicity, Consistency, Isolation, and Durability**, making them ideal for applications requiring complex transactions.
+  - Atomicity: Ensures that a transaction is all-or-nothing; either all operations succeed, or none are applied.  
+	- Consistency: Guarantees that a transaction transforms the database from one valid state to another, maintaining data integrity.
+	- Isolation: Ensures that concurrent transactions do not interfere with each other, producing the same result as if they were executed sequentially.
+	- Durability: Ensures that once a transaction is committed, the changes are permanent, even in the event of a system failure.
 - **Relational**: Data is often linked using keys (primary and foreign keys) to maintain relationships between tables.
 
 #### Example:
@@ -37,10 +41,10 @@ Key-value databases store data as a collection of **key-value pairs**. Each key 
 - **Redis**: A popular in-memory key-value store, often used for caching and real-time analytics.
   
 #### How It Works:
-\`\`\`plaintext
+```
 Key: user123
 Value: { "name": "Alice", "age": 29, "email": "alice@example.com" }
-\`\`\`
+```
 In practice, retrieving data from a key-value store is quick and efficient because you simply query the key to get the corresponding value.
 
 ---
