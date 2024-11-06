@@ -1,11 +1,12 @@
 
-# Key-Value Databases
+# Focus on Key-Value Databases
 
-## Introduction to Key-Value Databases
+## Key-Value Databases, a recap
+
 A key-value database is a type of NoSQL database that uses a simple key-value pair mechanism to store data. Each key is unique and maps directly to a value, which can be anything from a simple string or number to a complex object like a JSON document. Key-value databases are known for their speed and scalability, making them ideal for use cases where simple data retrieval is required at a large scale.
 
 ### Characteristics of Key-Value Databases
-- **Schema-less**: There is no strict schema required, which allows flexibility in storing different types of data without predefined structures.
+- **schema on read**: Key-value store design does not enforce a schema on developers. Anyone can modify the schema in the database program. Development teams have to plan the data model systematically to avoid long-term problems. The lack of a tight schema also means that the application is responsible for the proper interpretation of the data it consumes. ([source](https://aws.amazon.com/nosql/key-value/))
 - **Fast Lookups**: Since the data is accessed directly via the key, key-value databases offer extremely fast read and write operations.
 - **Scalability**: These databases are designed to scale horizontally, allowing for large amounts of data to be distributed across multiple servers.
 - **Simplicity**: The key-value model is straightforward, which makes it easier to implement compared to more complex databases.
@@ -44,13 +45,12 @@ Redis (Remote Dictionary Server) is an open-source, in-memory key-value data sto
 - **Persistence**: Although it is an in-memory database, Redis supports persistence by saving data to disk periodically.
 - **Data Structures**: Redis supports a variety of data types, including strings, lists, sets, sorted sets, hashes, bitmaps, hyperloglogs, and geospatial indexes.
 - **Atomic Operations**: All operations in Redis are atomic, meaning they are completed without the risk of interference from other operations.
-- **Pub/Sub Messaging**: Redis can be used as a message broker, supporting publish/subscribe patterns for real-time messaging.
 
 ### Redis vs Traditional Key-Value Databases
 While Redis is fundamentally a key-value store, it distinguishes itself from traditional key-value databases in several ways:
 - **Advanced Data Structures**: Redis supports more than just simple key-value pairs. It allows storing more complex data types, which makes it more versatile for different types of applications.
 - **Persistence Options**: Unlike many key-value stores that only operate in memory, Redis offers multiple persistence mechanisms to save data to disk.
-- **Extensibility**: Redis has built-in support for features like transactions, Lua scripting, and pub/sub messaging, making it a powerful tool for distributed systems.
+- **Extensibility**: Redis has built-in support for features like transactions, Lua scripting (executing custom scripts directly on the Redis server), and pub/sub messaging (real-time communication), making it a powerful tool for distributed systems.
 
 ### Use Cases for Redis
 - **Caching**: Redis is widely used for caching purposes due to its fast in-memory data access.
