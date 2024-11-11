@@ -56,7 +56,7 @@ In this lesson, we’ll dive into the world of Big Data technologies, focusing o
 
 ### Use Case for MapReduce:
 - **Log Analysis**: MapReduce can process massive server logs to analyze patterns, detect anomalies, or compute metrics like the number of visitors to a website.
-
+[(See simple implementation of MapReduce done in Python)](https://github.com/Naviden/MapReduceExample/blob/main/Mapreduce%20Example.ipynb)
 ---
 
 ## Apache Spark: A Powerful Successor to MapReduce
