@@ -145,3 +145,52 @@ At this point:
 #### TLDR
 
 Lazy operations in Spark allow you to define data transformations without immediate execution. This enables Spark to optimize the entire workflow for efficiency, ensuring that computations are executed only when necessary.
+
+---
+
+
+## Working with Spark DataFrames and RDDs
+
+### Spark DataFrames
+
+DataFrames are the most commonly used data structure in Spark and offer a higher-level API for working with structured data. They provide better performance optimizations and integrations with Spark SQL.
+
+#### Key Features:
+- Schema-aware: DataFrames have a schema, similar to a table in a relational database.
+- Optimized: DataFrames are optimized using Spark’s **Catalyst** engine for query optimization.
+
+#### Example:
+```
+# Basic DataFrame operation
+df_customers.select("customer_id", "name").show()
+```
+
+---
+
+### Spark RDDs (Resilient Distributed Datasets)
+
+RDDs are the underlying distributed data structure in Spark and provide more control over data manipulation but are less optimized than DataFrames.
+
+#### Key Features:
+- Immutable and distributed: RDDs are split into partitions across a cluster.
+- Low-level API: Provides fine-grained control but requires more manual optimization.
+
+#### Example:
+```
+# Create an RDD from a list
+rdd = spark.sparkContext.parallelize([("John", 35), ("Alice", 29), ("Bob", 42)])
+
+# Perform a map operation on the RDD
+rdd_mapped = rdd.map(lambda x: (x[0], x[1] + 10))  # Add 10 to each age
+rdd_mapped.collect()
+```
+
+---
+
+## When to Use DataFrames vs. RDDs
+
+### DataFrames:
+- Use DataFrames when working with structured data, especially when you want to leverage Spark’s optimizations and query engine.
+  
+### RDDs:
+- Use RDDs for unstructured data or when you need more control over data processing and transformations. They’re also useful for certain low-level operations where DataFrames may not provide the necessary flexibility.

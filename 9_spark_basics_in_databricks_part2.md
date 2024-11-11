@@ -3,11 +3,35 @@
 
 In this lesson, we’ll continue exploring Apache Spark in Databricks by diving into more advanced Spark operations such as **joins**, **aggregations**, and **window functions**. We will also compare working with **Spark DataFrames** and **RDDs**.
 
+# Case Study: Urban Essentials
+
+**Urban Essentials** is a mid-sized e-commerce company specializing in the sale of everyday products such as household items, personal care, and electronics. The company focuses on providing a seamless online shopping experience, offering a wide range of affordable and high-quality products to customers across various cities.
+
+## Business Model
+
+- **Target Audience**: Urban professionals and families seeking convenience and quality in their daily purchases.
+- **Revenue Streams**: Primarily through product sales, with additional revenue from promotions and a subscription service for frequent shoppers.
+- **Technology**: Leverages big data analytics and AI to personalize the shopping experience, offering product recommendations based on customer behavior and purchase history.
+
+## About the Data
+
+The datasets provided for this lesson are **synthetic** and have been generated to simulate the operations of Urban Essentials. They include:
+
+1. **Customer Dataset**: Contains information about 1,000 unique customers, including their names, emails, ages, and cities of residence.
+2. **Order Dataset**: Includes 2,000 orders associated with these customers, detailing order dates and amounts.
+
+## Purpose of the Case Study
+
+This is a **simple case study** designed to help learners practice advanced data manipulation and analysis techniques using Apache Spark. Through this case study, we will apply functions such as:
+
+- **Joins**: Combine multiple datasets.
+- **Aggregations**: Summarize data by grouping and calculating statistics.
+- **Window Functions**: Perform operations across a specified window of data.
+
 ---
 
-## 1. Advanced Spark Operations
 
-### 1.1 Joins in Spark
+### Joins in Spark
 
 Joins are essential when working with multiple datasets. Spark supports different types of joins, including inner, left, right, and full outer joins.
 
@@ -27,7 +51,7 @@ You can use other types of joins such as `left`, `right`, or `full` by replacing
 
 ---
 
-### 1.2 Aggregations in Spark
+### Aggregations in Spark
 
 Aggregations allow you to compute summaries of your data, such as sums, averages, or counts.
 
@@ -42,7 +66,7 @@ In this example, we grouped the orders by `customer_id` and calculated the total
 
 ---
 
-### 1.3 Window Functions in Spark
+### Window Functions in Spark
 
 Window functions enable you to perform calculations across a set of rows related to the current row. They’re often used for running totals, rankings, or sliding averages.
 
@@ -62,49 +86,3 @@ df_with_rank.show()
 This example calculates the ranking of each order per customer based on the order date.
 
 ---
-
-## 2. Working with Spark DataFrames and RDDs
-
-### 2.1 Spark DataFrames
-
-DataFrames are the most commonly used data structure in Spark and offer a higher-level API for working with structured data. They provide better performance optimizations and integrations with Spark SQL.
-
-#### Key Features:
-- Schema-aware: DataFrames have a schema, similar to a table in a relational database.
-- Optimized: DataFrames are optimized using Spark’s **Catalyst** engine for query optimization.
-
-#### Example:
-```
-# Basic DataFrame operation
-df_customers.select("customer_id", "name").show()
-```
-
----
-
-### 2.2 Spark RDDs (Resilient Distributed Datasets)
-
-RDDs are the underlying distributed data structure in Spark and provide more control over data manipulation but are less optimized than DataFrames.
-
-#### Key Features:
-- Immutable and distributed: RDDs are split into partitions across a cluster.
-- Low-level API: Provides fine-grained control but requires more manual optimization.
-
-#### Example:
-```
-# Create an RDD from a list
-rdd = spark.sparkContext.parallelize([("John", 35), ("Alice", 29), ("Bob", 42)])
-
-# Perform a map operation on the RDD
-rdd_mapped = rdd.map(lambda x: (x[0], x[1] + 10))  # Add 10 to each age
-rdd_mapped.collect()
-```
-
----
-
-## 3. When to Use DataFrames vs. RDDs
-
-### DataFrames:
-- Use DataFrames when working with structured data, especially when you want to leverage Spark’s optimizations and query engine.
-  
-### RDDs:
-- Use RDDs for unstructured data or when you need more control over data processing and transformations. They’re also useful for certain low-level operations where DataFrames may not provide the necessary flexibility.
