@@ -1,7 +1,7 @@
 # Case Study: Retail Analytics 101 with PySpark
 
 ## Overview
-This case study provides a realistic yet compact **retail dataset** designed for teaching the basics of **PySpark** using **Databricks Free**.  
+This case study provides a realistic yet compact **retail dataset** designed for basics of **PySpark** using **Databricks Free**.  
 It simulates data from a small retail chain with multiple stores, products, and customers. Students learn how to load, clean, transform, and analyse data using Spark DataFrames.
 
 ---
