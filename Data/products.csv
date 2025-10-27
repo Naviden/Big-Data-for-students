@@ -1,0 +1,61 @@
+product_id,product_name,category,brand,unit_price_list,tax_rate
+1,Beverages Item 1,Beverages,Umbrella,41.23,0.07
+2,Snacks Item 2,Snacks,Stark,6.58,0.07
+3,Beverages Item 3,Beverages,Globex,34.52,0.04
+4,Household Item 4,Household,Globex,54.13,0.04
+5,Bakery Item 5,Bakery,Soylent,59.21,0.1
+6,Dairy Item 6,Dairy,Stark,7.45,0.07
+7,Produce Item 7,Produce,Stark,51.27,0.04
+8,Personal Care Item 8,Personal Care,Acme,4.76,0.04
+9,Bakery Item 9,Bakery,Soylent,2.57,0.1
+10,Personal Care Item 10,Personal Care,Initech,53.95,0.1
+11,Produce Item 11,Produce,Stark,1.81,0.04
+12,Household Item 12,Household,Acme,40.62,0.07
+13,Bakery Item 13,Bakery,Umbrella,34.94,0.1
+14,Dairy Item 14,Dairy,Stark,12.44,0.07
+15,Produce Item 15,Produce,Acme,31.2,0.07
+16,Beverages Item 16,Beverages,Stark,37.22,0.07
+17,Bakery Item 17,Bakery,Soylent,56.02,0.07
+18,Beverages Item 18,Beverages,Globex,23.1,0.07
+19,Snacks Item 19,Snacks,Soylent,59.41,0.07
+20,Produce Item 20,Produce,Soylent,16.4,0.0
+21,Beverages Item 21,Beverages,Stark,36.34,0.07
+22,Household Item 22,Household,Soylent,7.74,0.1
+23,Produce Item 23,Produce,Soylent,25.4,0.07
+24,Beverages Item 24,Beverages,Umbrella,13.49,0.04
+25,Household Item 25,Household,Soylent,4.31,0.04
+26,Beverages Item 26,Beverages,Initech,45.4,0.04
+27,Dairy Item 27,Dairy,Umbrella,12.4,0.07
+28,Snacks Item 28,Snacks,Acme,54.61,0.1
+29,Beverages Item 29,Beverages,Stark,41.45,0.1
+30,Dairy Item 30,Dairy,Acme,19.13,0.04
+31,Beverages Item 31,Beverages,Globex,24.4,0.07
+32,Bakery Item 32,Bakery,Stark,33.26,0.1
+33,Personal Care Item 33,Personal Care,Globex,44.24,0.04
+34,Personal Care Item 34,Personal Care,Acme,52.9,0.07
+35,Personal Care Item 35,Personal Care,Soylent,35.03,0.04
+36,Beverages Item 36,Beverages,Umbrella,42.86,0.07
+37,Household Item 37,Household,Globex,13.47,0.07
+38,Bakery Item 38,Bakery,Stark,45.65,0.1
+39,Personal Care Item 39,Personal Care,Soylent,23.66,0.04
+40,Personal Care Item 40,Personal Care,Soylent,48.14,0.07
+41,Produce Item 41,Produce,Globex,43.75,0.0
+42,Bakery Item 42,Bakery,Initech,42.1,0.07
+43,Bakery Item 43,Bakery,Umbrella,21.72,0.1
+44,Household Item 44,Household,Globex,14.8,0.1
+45,Produce Item 45,Produce,Stark,54.84,0.04
+46,Beverages Item 46,Beverages,Initech,2.56,0.07
+47,Produce Item 47,Produce,Initech,34.56,0.07
+48,Dairy Item 48,Dairy,Globex,42.87,0.07
+49,Personal Care Item 49,Personal Care,Stark,36.99,0.04
+50,Household Item 50,Household,Stark,56.16,0.1
+51,Beverages Item 51,Beverages,Soylent,8.12,0.04
+52,Produce Item 52,Produce,Acme,8.79,0.07
+53,Household Item 53,Household,Soylent,31.85,0.07
+54,Dairy Item 54,Dairy,Initech,21.11,0.07
+55,Snacks Item 55,Snacks,Initech,21.01,0.07
+56,Bakery Item 56,Bakery,Globex,55.49,0.07
+57,Bakery Item 57,Bakery,Umbrella,27.95,0.0
+58,Bakery Item 58,Bakery,Acme,9.74,0.07
+59,Household Item 59,Household,Acme,3.48,0.07
+60,Personal Care Item 60,Personal Care,Globex,17.74,0.0

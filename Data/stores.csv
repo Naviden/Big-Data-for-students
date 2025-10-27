@@ -1,0 +1,13 @@
+store_id,store_name,city,region,opened_date,store_type
+1,Store #1,Salinasshire,Georgia,2021-08-09,Suburban
+2,Store #2,Lake Ryanview,Iowa,2020-07-25,Urban
+3,Store #3,Fullerview,North Carolina,2023-01-22,Outlet
+4,Store #4,Taylorland,Arizona,2022-02-11,Urban
+5,Store #5,New John,Louisiana,2022-07-17,Suburban
+6,Store #6,Villarrealberg,Massachusetts,2021-08-26,Urban
+7,Store #7,East Davidview,West Virginia,2022-06-29,Outlet
+8,Store #8,North Carla,Indiana,2022-11-15,Suburban
+9,Store #9,New Susanland,Alabama,2021-05-31,Suburban
+10,Store #10,Lawrenceview,Kentucky,2023-03-21,Urban
+11,Store #11,New Kimberlymouth,Rhode Island,2023-06-01,Mall
+12,Store #12,Mariotown,Illinois,2023-10-26,Urban
