@@ -45,20 +45,3 @@ By working with this dataset in **Databricks (PySpark)**, students will:
 3. **Transform data:** cast types, parse JSON, derive metrics, and join dimension tables.
 4. **Aggregate and analyse:** compute KPIs (monthly revenue, top products, loyalty tier impact).
 5. **Apply window functions** and **UDFs** for advanced analytics.
-6. **Save curated tables** in Delta format and visualise results in Databricks.
-
----
-
-## Example Learning Tasks
-- Monthly revenue trend per category or store type.
-- Top 10 products by revenue.
-- Campaign effectiveness based on promo metadata.
-- Outlier detection (implausible quantities or prices).
-- Net revenue after product returns.
-
----
-
-## Files
-- `retail_case_study.xlsx` → multi-sheet Excel version (for preview and offline use)
-- `retail_case_study_csv.zip` → CSV version (for Databricks upload)
-- `pyspark_retail_case_study.ipynb` → ready-to-run Databricks notebook with guided exercises
