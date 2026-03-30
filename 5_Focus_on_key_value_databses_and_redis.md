@@ -38,7 +38,7 @@ Key-value databases differ from traditional relational databases (RDBMS) in seve
 ## Introduction to Redis
 
 ### What is Redis?
-Redis (Remote Dictionary Server) is an open-source, in-memory key-value data store. It is widely used as a database, cache, and message broker. Redis stores data in memory, which allows for extremely fast read and write operations. It is known for its simplicity, flexibility, and support for a wide variety of data structures.
+Redis (Remote Dictionary Server) was made by [Salvatore Sanfilippo](https://en.wikipedia.org/wiki/Salvatore_Sanfilippo) as an open-source, in-memory key-value data store. It is widely used as a database, cache, and message broker. Redis stores data in memory, which allows for extremely fast read and write operations. It is known for its simplicity, flexibility, and support for a wide variety of data structures.
 
 ### Key Features of Redis
 - **In-Memory**: Redis stores all data in memory, making it much faster than disk-based databases.

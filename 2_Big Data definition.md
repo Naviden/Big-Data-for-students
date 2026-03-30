@@ -1,6 +1,6 @@
 # Quick Recap of Big Data Definition
 
-Big Data is characterized by the large, fast, and diverse data generated today. To better understand it, we break down Big Data into the **5 V's** that explain the challenges and opportunities it presents.
+Big Data is characterized by the large, fast, and diverse data generated today. To better understand it, we break down Big Data into the **4 V's** that explain the challenges and opportunities it presents.
 
 ---
 
@@ -9,7 +9,7 @@ Big Data is characterized by the large, fast, and diverse data generated today. 
 ### 1. **Volume**
 Refers to the **amount** of data generated. With advancements in digital platforms, sensors, and networks, the scale of data has exploded.
 
-- **Example**: Social media platforms like Twitter generate terabytes of data daily from posts, interactions, and multimedia uploads.
+- **Example**: Social media platforms like Instagram generate terabytes of data daily from posts, interactions, and multimedia uploads.
 
 
 

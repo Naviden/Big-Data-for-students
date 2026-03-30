@@ -23,6 +23,13 @@ A **data warehouse** is a centralized repository that stores large amounts of **
 - **Example**: A corporation storing years of sales and customer data to generate business insights.
 - **Usage**: Primarily for business analytics, long-term data storage, and historical analysis.
 
+#### Remember: *A data warehouse is not just a pile of databases put together.*
+What makes it a warehouse is that the data is usually:
+	- integrated from different sources
+	- cleaned and transformed
+	- structured for analysis and reporting
+	- often historical (keeps data over time)
+
 ---
 
 ### 3. **Data Mart**

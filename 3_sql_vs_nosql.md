@@ -17,7 +17,7 @@ In this lesson, we’ll explore the differences between **SQL** (relational) and
   - *Consistency*: Guarantees that a transaction transforms the database from one valid state to another, maintaining data integrity.
   - *Isolation*: Ensures that concurrent transactions do not interfere with each other, producing the same result as if they were executed sequentially.
   - *Durability*: Ensures that once a transaction is committed, the changes are permanent, even in the event of a system failure.
-  - 
+  
 - **Relational**: Data is often linked using keys (primary and foreign keys) to maintain relationships between tables.
 
 #### Example:
