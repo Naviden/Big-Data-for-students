@@ -4,7 +4,7 @@ Big Data is characterized by the large, fast, and diverse data generated today. 
 
 ---
 
-## The 5 V's of Big Data
+## The 4 V's of Big Data
 
 ### 1. **Volume**
 Refers to the **amount** of data generated. With advancements in digital platforms, sensors, and networks, the scale of data has exploded.
@@ -32,12 +32,6 @@ Refers to the **quality** and reliability of data. With vast amounts of data, no
 
 - **Example**: In social media sentiment analysis, filtering out fake news or bots is essential to ensure data accuracy.
 
-
-
-### 5. **Value**
-The most critical dimension—how much **business value** can be extracted from Big Data. Collecting vast amounts of data is pointless if it doesn’t lead to actionable insights.
-
-- **Example**: E-commerce platforms extract value from data by analyzing customer behavior to personalize recommendations, driving sales and customer satisfaction.
 
 ---
 
