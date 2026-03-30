@@ -17,19 +17,19 @@ A **database** is an organized collection of data, generally stored and accessed
 
 ---
 
-### 2. **Data Mart**
-A **data mart** is a subset of a data warehouse, typically focused on a specific area of business (e.g., marketing, finance). It allows departments to quickly access relevant data without going through the entire database.
-
-- **Example**: A company’s marketing team accessing a data mart that holds customer interaction data.
-- **Usage**: Smaller, more specialized, and easier to manage compared to data warehouses.
-
----
-
-### 3. **Data Warehouse**
+### 2. **Data Warehouse**
 A **data warehouse** is a centralized repository that stores large amounts of **structured** and **historical** data. It is used to perform complex queries and generate reports.
 
 - **Example**: A corporation storing years of sales and customer data to generate business insights.
 - **Usage**: Primarily for business analytics, long-term data storage, and historical analysis.
+
+---
+
+### 3. **Data Mart**
+A **data mart** is a subset of a data warehouse, typically focused on a specific area of business (e.g., marketing, finance). It allows departments to quickly access relevant data without going through the entire database.
+
+- **Example**: A company’s marketing team accessing a data mart that holds customer interaction data.
+- **Usage**: Smaller, more specialized, and easier to manage compared to data warehouses.
 
 ---
 
